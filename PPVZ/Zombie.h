@@ -3,7 +3,7 @@
 using namespace std;
 class Zombie
 {
-private:
+protected:
 	float posicionX;
 	float posicionY;
 	string color;
@@ -18,11 +18,11 @@ public:
 	Zombie();
 	Zombie(float _posicionX, float _posicionY, string _color, int _vida, float _tamaño, int _velocidad_movimiento, int _velocidad_ataque, int _daño, int _daño_planta);
 	//metodos directos
-	void Caminar(float posicionX, float posicionY, int velocidad_movimiento);
-	void Atacar(int velocidad_ataque, int daño);
-	void Morir(int vida);
-	void recibirDaño(int vida, int daño_planta);
-	void explotarCabeza(int vida);
+	virtual void Caminar(float posicionX, float posicionY, int velocidad_movimiento);
+	virtual void Atacar(int velocidad_ataque, int daño);
+	virtual void Morir(int vida);
+	virtual void recibirDaño(int vida, int daño_planta);
+	virtual void explotarCabeza(int vida);
 
 	//metodos accesores
 	void setPosicionX(float _posicionX) { posicionX = _posicionX; }
