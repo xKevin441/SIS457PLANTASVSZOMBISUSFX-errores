@@ -51,10 +51,10 @@ public:
     int getVelocidadMovimientoEs() { return velocidadMovimientoEs; }
 
     //Metodos directos
-    void movimientoEstatico();
-    void recirbirDanio(int danioRecibido);
-    void atacar();
-    void morir();
+    virtual void movimientoEstatico();
+    virtual void recirbirDanio(int danioRecibido);
+    virtual void atacar();
+    virtual void morir();
 
 };
    
