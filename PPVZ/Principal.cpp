@@ -93,19 +93,27 @@ int main()
 	cout << "Podadora Posicion en X: " << Podadora.getmoverX() << endl;
 
 
-	Rastrillo Rrastrillo;
+	Rastrillo rastrillo;
+	rastrillo.contacto(1);
+	rastrillo.destruirse();
+	cout << "\nEstado rastrillo: " << rastrillo.getDañoImpacto() << endl;
+	cout << "Rastrillo Posicion en X: " << rastrillo.getPosicionX() << endl;
+	cout << "Rastrillo Posicion en Y: " << rastrillo.getPosicionY() << endl;
+	cout << "Daño impacto: " << rastrillo.getDañoImpacto() << endl;
 
 
-
-	Temporizador_carga_plantas Temporizador_carga_plantas;
+	Temporizador_carga_plantas temporizador_carga_plantas;
+	temporizador_carga_plantas.spawn_soles(20);
+	temporizador_carga_plantas.cantidad—sol(25);
+	temporizador_carga_plantas.caida_soles(25.0, 30.0);
+	cout << "Tiempo soles: " << temporizador_carga_plantas.get_tiempo_soles() << endl;
 
 
 	Zombie ZombieGenerico;
-
-
-
-
-
+	ZombieGenerico.Atacar(25, 50);
+	ZombieGenerico.Caminar(10, 10, 20);
+	ZombieGenerico.Morir(1);
+	ZombieGenerico.explotarCabeza(0);
 
 	return 0;
 }
