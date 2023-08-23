@@ -23,6 +23,9 @@ public:
 	void setEstadoProteccion(int _estadoProteccion) { estadoProteccion = _estadoProteccion; };
 	int getEstadoProteccion() { return estadoProteccion; }
 
+	//Metodos directos
+	virtual void duracionProteccion(int danioPlanta);
+
 
 };
 
