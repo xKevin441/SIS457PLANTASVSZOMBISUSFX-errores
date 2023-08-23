@@ -29,7 +29,6 @@ public:
 	float getcambiarPosicion() { return posicionY; }
 
 
-
 	//metodos directos
 	void triturarZombie();
 

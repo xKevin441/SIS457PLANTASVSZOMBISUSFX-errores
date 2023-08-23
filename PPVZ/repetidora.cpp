@@ -11,5 +11,5 @@ void daño()
 void ataque()
 {
     cout << "sentido invertido";
-}
+
 }
