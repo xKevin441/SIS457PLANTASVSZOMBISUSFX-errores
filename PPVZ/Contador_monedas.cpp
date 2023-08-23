@@ -20,8 +20,10 @@ Contador_monedas::Contador_monedas(int _contador, int _sol, float _posicionX, fl
 
 void Contador_monedas::acumular(int sol, int contador)
 {
+	contador = contador + sol;
 }
 
 void Contador_monedas::actualizar(int contador)
 {
+	cout << "los soles acumulados son: " << contador << endl;
 }

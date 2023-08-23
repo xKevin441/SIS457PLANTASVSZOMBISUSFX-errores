@@ -13,15 +13,16 @@ Sol::Sol()
 
 void Sol::aparecer(float posSiguienteX, float posSiguienteY)
 {
-
+	posX = posSiguienteX;
+	posY = posSiguienteY;
 }
 
 void Sol::caida()
 {
-
+	posY -= 1.0f;
 }
 
 void Sol::desaparecer()
 {
-
+	cout << "Sol no capturado\n";
 }

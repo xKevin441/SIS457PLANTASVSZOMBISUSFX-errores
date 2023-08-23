@@ -13,6 +13,7 @@ private:
 public:
 	//Metodos constructores
 	Pala();
+	Pala(float _posicionX, float _posicionY, string _color, int _tamaño);
 
 	//Metodos accesores
 	void setPosicionX(float _posicionX) { posicionX = _posicionX; }
@@ -30,6 +31,5 @@ public:
 	//Metodos comunes
 	void cambiarEstado();
 	void desplazar(float desplazamientoX, float desplazamientoY);
-	void quitarPlanta();
-
+	void quitarPlanta(float _posicionX, float _posicionY);
 };

@@ -30,20 +30,27 @@ Zombie::Zombie(float _posicionX, float _posicionY, string _color, int _vida, flo
 
 void Zombie::Caminar(float posicionX, float posicionY, int velocidad_movimiento)
 {
+	float caminar = posicionX + velocidad_movimiento;
 }
 
 void Zombie::Atacar(int velocidad_ataque, int daño)
 {
+	int atacar = velocidad_ataque + daño;
 }
 
 void Zombie::Morir(int vida)
 {
+	vida = 0;
+	cout << "El zombie murió" << endl;
 }
 
 void Zombie::recibirDaño(int vida, int daño_planta)
 {
+	vida = vida - daño_planta;
 }
 
 void Zombie::explotarCabeza(int vida)
 {
+	vida = 0;
+	cout << "El zombie murió" << endl;
 }

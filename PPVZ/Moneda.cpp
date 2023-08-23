@@ -1,6 +1,6 @@
 #include "Moneda.h"
 #include <iostream>
-moneda::moneda(string _color, string _material, int _posicionY, int _posicionX, int _tiempoVida)
+moneda::moneda()
 {
 	posicionY = _posicionY;
 	posicionX = _posicionX;
@@ -11,8 +11,11 @@ moneda::moneda(string _color, string _material, int _posicionY, int _posicionX, 
 
 void moneda::aparecer(int posSiguienteX, int posSiguienteY)
 {
+	posicionX = posSiguienteX;
+	posicionY = posSiguienteY;
 }
 
 void moneda::desaparecer()
 {
+	cout << "moneda no capturada\n";
 }

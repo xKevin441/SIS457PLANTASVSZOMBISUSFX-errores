@@ -17,18 +17,21 @@ private:
 public:
 	void sepcordenadaX(int _coordenadaX) { coordenadaX = coordenadaX; }
 	float getposX() { return coordenadaX; }
+
 	void sepmover(int _velocidadX) { velocidad = velocidad; }
 	float getmoverX() { return velocidad; }
+
 	void sepencender(int _estado) { estado = estado; }
 	string getencender() { return estado; }
+
 	void septriturarZombie(int _triturarZombie) { triturarZombie = triturarZombie; }
 	float getTriturarZombie() { return triturarZombie; }
+
 	void sepSonido(int _estado) { estado = estado; }
 	string getSonido() { return estado; }
+
 	void sepcambiarPosicion(int _posicionY) { posicionY = posicionY; }
 	float getcambiarPosicion() { return posicionY; }
-
-
 
 	//metodos directos
 	void triturarZombie();

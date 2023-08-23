@@ -6,6 +6,7 @@ using namespace std;
 class planta
 {
 private:
+    string nombre;
     float posicionX;
     float posicionY;
     int vida;
@@ -19,6 +20,9 @@ private:
 public:
     planta();
     //Metodos accesores
+    void setNombre(string _nombre) { nombre = _nombre; };
+    string getNombre() { return nombre; }
+
     void setPosicionX(float _posicionX) { posicionX = _posicionX; };
     float getPosicionX() { return posicionX; }
 

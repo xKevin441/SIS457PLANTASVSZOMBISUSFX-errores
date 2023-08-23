@@ -11,7 +11,7 @@ private:
 	string material;
 
 public:
-	moneda(string _color, string _material, int _posicionY, int _posicionX, int _tiempoVida);
+	moneda();
 
 	void setmoverX(int _posicionX) { posicionX = _posicionX; }
 	int getmoverX() { return posicionX; }
