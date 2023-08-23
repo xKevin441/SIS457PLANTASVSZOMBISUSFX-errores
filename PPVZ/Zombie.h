@@ -3,7 +3,7 @@
 using namespace std;
 class Zombie
 {
-private:
+protected:
 	float posicionX;
 	float posicionY;
 	string color;

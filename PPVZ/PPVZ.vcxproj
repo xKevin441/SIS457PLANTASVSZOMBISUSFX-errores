@@ -25,6 +25,7 @@
     <ClInclude Include="Moneda.h" />
     <ClInclude Include="Pala.h" />
     <ClInclude Include="Planta.h" />
+    <ClInclude Include="PlantaExplosiva.h" />
     <ClInclude Include="Podadora.h" />
     <ClInclude Include="Rrastrillo.h" />
     <ClInclude Include="Sol.h" />
@@ -36,6 +37,7 @@
     <ClCompile Include="Barra_de_progreso.cpp" />
     <ClCompile Include="contadorSoles.cpp" />
     <ClCompile Include="Contador_monedas.cpp" />
+    <ClCompile Include="PlantaExplosiva.cpp" />
     <ClCompile Include="Principal.cpp" />
     <ClCompile Include="Moneda.cpp" />
     <ClCompile Include="Pala.cpp" />

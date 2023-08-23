@@ -5,7 +5,7 @@ using namespace std;
 
 class planta
 {
-private:
+protected:
     string nombre;
     float posicionX;
     float posicionY;
