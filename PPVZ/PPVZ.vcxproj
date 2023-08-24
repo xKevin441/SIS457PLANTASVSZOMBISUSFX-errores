@@ -37,7 +37,9 @@
     <ClInclude Include="Temporizador_carga_plantas.h" />
     <ClInclude Include="Zombie.h" />
     <ClInclude Include="ZombieCubierto.h" />
+    <ClInclude Include="ZombieEscalera.h" />
     <ClInclude Include="ZombiePeriodico.h" />
+    <ClInclude Include="ZombiePortero.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Barra_de_progreso.cpp" />
@@ -59,7 +61,9 @@
     <ClCompile Include="Temporizador_carga_plantas.cpp" />
     <ClCompile Include="Zombie.cpp" />
     <ClCompile Include="ZombieCubierto.cpp" />
+    <ClCompile Include="ZombieEscalera.cpp" />
     <ClCompile Include="ZombiePeriodico.cpp" />
+    <ClCompile Include="ZombiePortero.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

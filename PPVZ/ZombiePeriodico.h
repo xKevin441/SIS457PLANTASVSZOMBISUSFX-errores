@@ -14,7 +14,7 @@ public:
 
 	//Metodos directos
 	void enojarse();
-
+	void duracionProteccion(int danioPlanta) override;
 
 };
 
