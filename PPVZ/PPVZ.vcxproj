@@ -41,6 +41,9 @@
     <ClInclude Include="tarjetasPlantas.h" />
     <ClInclude Include="Temporizador_carga_plantas.h" />
     <ClInclude Include="Zombie.h" />
+    <ClInclude Include="ZombieAbanderado.h" />
+    <ClInclude Include="ZombieCaracono.h" />
+    <ClInclude Include="ZombieCaracubo.h" />
     <ClInclude Include="ZombieCubierto.h" />
     <ClInclude Include="ZombieEscalera.h" />
     <ClInclude Include="ZombiePeriodico.h" />
@@ -70,6 +73,9 @@
     <ClCompile Include="tarjetasPlantas.cpp" />
     <ClCompile Include="Temporizador_carga_plantas.cpp" />
     <ClCompile Include="Zombie.cpp" />
+    <ClCompile Include="ZombieAbanderado.cpp" />
+    <ClCompile Include="ZombieCaracono.cpp" />
+    <ClCompile Include="ZombieCaracubo.cpp" />
     <ClCompile Include="ZombieCubierto.cpp" />
     <ClCompile Include="ZombieEscalera.cpp" />
     <ClCompile Include="ZombiePeriodico.cpp" />
