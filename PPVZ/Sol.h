@@ -13,6 +13,7 @@ private:
 
 public:
 	Sol();
+	Sol(float _posX, float _posY, int _cantEnergia);
 	//Metodos accesores
 	void setposX(int _posX) { posX = _posX; }
 	float getposX() { return posX; }

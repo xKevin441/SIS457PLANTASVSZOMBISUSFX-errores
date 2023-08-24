@@ -11,11 +11,20 @@ Sol::Sol()
 	tiempoEspera = 15;
 }
 
+Sol::Sol(float _posX, float _posY, int _cantEnergia)
+{
+	posX = _posX;
+	posY = _posY;
+	cantEnergia = _cantEnergia;
+}
+
 void Sol::aparecer(float posSiguienteX, float posSiguienteY)
 {
 	posX = posSiguienteX;
 	posY = posSiguienteY;
 }
+
+
 
 void Sol::caida()
 {
@@ -26,3 +35,4 @@ void Sol::desaparecer()
 {
 	cout << "Sol no capturado\n";
 }
+
