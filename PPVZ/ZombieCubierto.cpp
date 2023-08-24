@@ -9,4 +9,5 @@ ZombieCubierto::ZombieCubierto()
 
 void ZombieCubierto::duracionProteccion(int danioPlanta)
 {
+	resistenciaProteccion -= danioPlanta;
 }

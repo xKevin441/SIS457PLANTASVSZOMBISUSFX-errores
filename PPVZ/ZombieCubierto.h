@@ -5,7 +5,7 @@ using namespace std;
 
 class ZombieCubierto : public Zombie
 {
-private:
+protected:
 	string tipoProteccion;
 	int resistenciaProteccion;
 	int estadoProteccion;
