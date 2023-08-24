@@ -20,16 +20,21 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Barra_de_progreso.h" />
+    <ClInclude Include="Cactus.h" />
+    <ClInclude Include="Coltapulta.h" />
     <ClInclude Include="contadorSoles.h" />
     <ClInclude Include="Contador_monedas.h" />
     <ClInclude Include="Jalapenio.h" />
+    <ClInclude Include="Lanzamaiz.h" />
     <ClInclude Include="Moneda.h" />
     <ClInclude Include="Pala.h" />
     <ClInclude Include="Patatapum.h" />
     <ClInclude Include="Petacereza.h" />
     <ClInclude Include="Petaseta.h" />
+    <ClInclude Include="Pinchohierba.h" />
     <ClInclude Include="Planta.h" />
     <ClInclude Include="PlantaExplosiva.h" />
+    <ClInclude Include="Planta_Melonpulta.h" />
     <ClInclude Include="Podadora.h" />
     <ClInclude Include="Rrastrillo.h" />
     <ClInclude Include="Sol.h" />
@@ -43,13 +48,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Barra_de_progreso.cpp" />
+    <ClCompile Include="Cactus.cpp" />
+    <ClCompile Include="Coltapulta.cpp" />
     <ClCompile Include="contadorSoles.cpp" />
     <ClCompile Include="Contador_monedas.cpp" />
     <ClCompile Include="Jalapenio.cpp" />
+    <ClCompile Include="Lanzamaiz.cpp" />
     <ClCompile Include="Patatapum.cpp" />
     <ClCompile Include="Petacereza.cpp" />
     <ClCompile Include="Petaseta.cpp" />
+    <ClCompile Include="Pinchohierba.cpp" />
     <ClCompile Include="PlantaExplosiva.cpp" />
+    <ClCompile Include="Planta_Melonpulta.cpp" />
     <ClCompile Include="Principal.cpp" />
     <ClCompile Include="Moneda.cpp" />
     <ClCompile Include="Pala.cpp" />
