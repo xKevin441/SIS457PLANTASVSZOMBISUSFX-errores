@@ -115,5 +115,34 @@ int main()
 	ZombieGenerico.Morir(1);
 	ZombieGenerico.explotarCabeza(0);
 
+
+	// Bucle infinito
+	srand(static_cast<unsigned int>(time(nullptr)));
+	while (true) {
+		int opcion = rand() % 3;
+
+		Zombie zombiexd;
+		planta plantaxd;
+		Sol solaso;
+
+		if (opcion == 0) {
+			zombiexd.Caminar(10.0, 10.0, 5);
+			zombiexd.Atacar(10.0, 20);
+			
+		}
+		else if (opcion == 1) {
+			plantaxd.atacar();
+			plantaxd.getDaño();
+		}
+		else {
+			solaso.aparecer(10.0, 25.0);
+			solaso.caida();
+			solaso.desaparecer();
+		}
+		zombiexd.Morir(0);
+		std::cout << "|^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^|" << std::endl;
+		system("pause");
+	}
+
 	return 0;
 }
